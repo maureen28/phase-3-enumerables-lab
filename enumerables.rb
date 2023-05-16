@@ -74,3 +74,46 @@ def average_heat_level(spicy_foods)
   heat_level/spicy_foods.length
 end
 
+# list = [1, 4, 7]
+# puts each_elem = list.each
+# puts each_elem.next
+# class Person
+#     attr_accessor :age
+#     def initialize(age)
+#         @age = age
+#     end
+
+#     def <=>(other)
+#         @age <=> other.age
+#     end
+# end
+
+# puts p1 = Person.new(28)
+# puts p2 = Person.new(20)
+# puts [p1, p2].sort
+
+# class Fibonacci
+#   attr_accessor :cap
+ 
+#   def initialize(cap)
+#       @cap = cap
+#   end
+
+#   include Enumerable # including the module
+ 
+#   def each(&block)
+#       first = 1
+#       second = 1
+#       third = 2
+#       curr = 0
+#       while curr < cap  do
+#           curr += 1
+#           yield first
+#           first = second
+#           second = third
+#           third = first + second
+#       end
+#   end
+# end
+
+# puts Fibonacci.new(10).to_a
